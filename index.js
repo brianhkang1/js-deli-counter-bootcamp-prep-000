@@ -10,7 +10,7 @@ function takeANumber(katzDeliLine) {
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0) {
     var firstInLine = katzDeliLine.shift();
-      return `Currently serving ${firstInLine}.`;
+      return `Currently serving number ${firstInLine}.`;
   } else {
     return "There is nobody waiting to be served!";
   }
