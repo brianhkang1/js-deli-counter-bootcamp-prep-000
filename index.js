@@ -1,7 +1,7 @@
 var katzDeliLine = [];  
+var num = 0
 
 function takeANumber(katzDeliLine) {
-  var num = 0
   num += 1
   katzDeliLine.push(num);
   return `Welcome. You are number ${num}.`;
